@@ -8,9 +8,9 @@ int main(void) {
 
     scanf("%d", &x);
 
-    result = 1.0 / (x + 100);
+    result = 1.0/((double)x+100);
 
-    pintf("%.15f\n",result);
+    printf("%.15f",result);
 
 
     
